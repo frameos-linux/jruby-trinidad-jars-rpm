@@ -6,7 +6,7 @@
 
 Summary: Tomcat's jars packed for Trinidad
 Name: jruby-trinidad-jars
-Version: 0.3.2
+Version: 1.0.0
 Release: 1%{?dist}
 Group: Development/Languages
 License: GPLv2+ or Ruby
@@ -44,5 +44,8 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Fri Oct 15 2010 : Sergio Rubio <rubiojr@frameos.org> - 0.3.2-1
+* Thu Feb 24 2011 Sergio Rubio <rubiojr@frameos.org> - 1.0.0-1
+- upstream update
+
+* Fri Oct 15 2010 Sergio Rubio <rubiojr@frameos.org> - 0.3.2-1
 - Initial package
